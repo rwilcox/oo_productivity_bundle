@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE outline PUBLIC "-//omnigroup.com//DTD OUTLINE 3.0//EN" "http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-v3.dtd">
+<outline xmlns="http://www.omnigroup.com/namespace/OmniOutliner/v3">
+  <style-attribute-registry>
+    <style-attribute version="0" key="font-family" group="font" name="family" class="string">Helvetica</style-attribute>
+    <style-attribute version="1" key="font-fill" group="font" name="fill color" class="color">
+      <color w="0"/>
+    </style-attribute>
+    <style-attribute version="0" key="font-fixed-pitch" group="font" name="fixed pitch" class="bool">no</style-attribute>
+    <style-attribute version="0" key="font-size" group="font" name="size" class="number">12</style-attribute>
+    <style-attribute version="0" key="font-weight" group="font" name="weight" class="number">5</style-attribute>
+    <style-attribute version="0" key="ligature-selection" group="ligature" name="selection" class="enum">
+      <enum-name-table default-value="1">
+        <enum-name-table-element value="0" name="none"/>
+        <enum-name-table-element value="1" name="default"/>
+        <enum-name-table-element value="2" name="all"/>
+      </enum-name-table>
+    </style-attribute>
+    <style-attribute version="0" key="paragraph-alignment" group="paragraph" name="alignment" class="enum">
+      <enum-name-table default-value="4">
+        <enum-name-table-element value="0" name="left"/>
+        <enum-name-table-element value="1" name="right"/>
+        <enum-name-table-element value="2" name="center"/>
+        <enum-name-table-element value="3" name="justified"/>
+        <enum-name-table-element value="4" name="natural"/>
+      </enum-name-table>
+    </style-attribute>
+    <style-attribute version="0" key="paragraph-tab-stop-interval" group="paragraph" name="tab stop interval" class="number">0</style-attribute>
+    <style-attribute version="0" key="paragraph-tab-stops" group="paragraph" name="tab stops" class="string">28L,56L,84L,112L,140L,168L,196L,224L,252L,280L,308L,336L</style-attribute>
+    <style-attribute version="1" key="strikethrough-style" group="strikethrough" name="style" class="enum">
+      <enum-name-table default-value="0">
+        <enum-name-table-element value="0" name="none"/>
+        <enum-name-table-element value="1" name="single"/>
+        <enum-name-table-element value="2" name="thick"/>
+        <enum-name-table-element value="9" name="double"/>
+      </enum-name-table>
+    </style-attribute>
+    <style-attribute version="0" key="text-background-color" group="text" name="background color" class="color">
+      <color w="0" a="0"/>
+    </style-attribute>
+  </style-attribute-registry>
+  <named-styles>
+    <named-style id="n_Pe4j-wTmH" name="Heading 1" display-order="0">
+      <style>
+        <value key="font-fill">
+          <color r="0.802974" g="0.302721" b="0.0883271"/>
+        </value>
+        <value key="font-size">24</value>
+        <value key="font-weight">12</value>
+        <value key="text-background-color">
+          <color r="0.933615" g="0.623308" b="0.326836"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="jBtVNldF-aM" name="Heading 2" display-order="1">
+      <style>
+        <value key="font-size">16</value>
+      </style>
+    </named-style>
+    <named-style id="n_HOk4UCHob" name="Subheading" display-order="2">
+      <style>
+        <value key="font-size">18</value>
+        <value key="font-weight">9</value>
+      </style>
+    </named-style>
+    <named-style id="oCYDVlLBHH7" name="Checked" display-order="3">
+      <style>
+        <value key="strikethrough-style">single</value>
+      </style>
+    </named-style>
+    <named-style id="pEuyXj84FqX" name="Emphasis" display-order="4">
+      <style>
+        <value key="font-fill">
+          <color r="0.348945" g="0.437578" b="0.464684"/>
+        </value>
+        <value key="font-weight">9</value>
+      </style>
+    </named-style>
+    <named-style id="oNjvfB6_IzG" name="Highlight" display-order="5">
+      <style>
+        <value key="text-background-color">
+          <color r="0.929368" g="0.902012" b="0.825721"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="jmMHkfmYZ1M" name="Yellow" display-order="6">
+      <style>
+        <value key="font-fill">
+          <color r="0.710037" g="0.532528" b="0"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="a0st9oz2FO1" name="Orange" display-order="7">
+      <style>
+        <value key="font-fill">
+          <color r="0.802974" g="0.302721" b="0.0883271"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="n7Lfd4MM7uE" name="Red" display-order="8">
+      <style>
+        <value key="font-fill">
+          <color r="0.855019" g="0.196205" b="0.181175"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="aeYpF7M08yK" name="Magenta" display-order="9">
+      <style>
+        <value key="font-fill">
+          <color r="0.825279" g="0.214757" b="0.514342"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="dM6ALojFVLh" name="CODE" display-order="10">
+      <style>
+        <value key="font-family">Andale Mono</value>
+        <value key="font-fixed-pitch">yes</value>
+      </style>
+    </named-style>
+  </named-styles>
+  <settings>
+    <base-style>
+      <style>
+        <value key="font-family">Gill Sans</value>
+        <value key="font-fill">
+          <color r="0.389049" g="0.475686" b="0.505576"/>
+        </value>
+        <value key="text-background-color">
+          <color r="0.98513" g="0.959032" b="0.886251"/>
+        </value>
+      </style>
+    </base-style>
+    <page-adornment>
+      <first-page-headers is-active="yes">
+        <header location="center">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OOSectionTitleVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+      </first-page-headers>
+    </page-adornment>
+    <print-info>
+      <print-info-key name="OOScaleDocumentToFitPageWidth" type="boolean">true</print-info-key>
+    </print-info>
+  </settings>
+  <editor content-size="{677, 960}" column-titles-display-mode="auto" status-visible="no" hide-attachment-tags="yes">
+    <drawer display="sections" palette-height="694"/>
+    <selected-rows ids="lINzkyHIpjo"/>
+    <selected-columns ids="jFqHUGd_Dg1"/>
+    <selected-characters range="{0, 0}"/>
+    <toolbar>{
+    &quot;TB Display Mode&quot; = 1;
+    &quot;TB Icon Size Mode&quot; = 1;
+    &quot;TB Is Shown&quot; = 1;
+    &quot;TB Size Mode&quot; = 1;
+}</toolbar>
+  </editor>
+  <columns>
+    <column id="dTpN3JwYpBn" type="text" width="18" minimum-width="18" maximum-width="18" text-export-width="1" is-note-column="yes">
+      <style>
+        <value key="font-fill">
+          <color r="0.575586" g="0.63197" b="0.63197"/>
+        </value>
+      </style>
+      <title>
+        <text>
+          <p/>
+        </text>
+      </title>
+    </column>
+    <column id="jFqHUGd_Dg1" type="text" width="641" minimum-width="13" maximum-width="1000000" text-export-width="72" is-outline-column="yes">
+      <title>
+        <text>
+          <p>
+            <run>
+              <lit>Topic</lit>
+            </run>
+          </p>
+        </text>
+      </title>
+    </column>
+  </columns>
+  <root>
+    <style/>
+    <style>
+      <inherited-style name="Heading 1" idref="n_Pe4j-wTmH"/>
+    </style>
+    <style>
+      <inherited-style name="Heading 2" idref="jBtVNldF-aM"/>
+    </style>
+    <style>
+      <inherited-style name="Red" idref="n7Lfd4MM7uE"/>
+      <value key="font-fill">
+        <color r="0.802974" g="0.302721" b="0.0883271"/>
+      </value>
+      <value key="font-size">14</value>
+      <value key="font-weight">12</value>
+    </style>
+    <item id="lbDZbnOWxl6" expanded="yes" state="none">
+      <style/>
+      <style/>
+      <style/>
+      <style/>
+      <style/>
+      <style/>
+      <style>
+        <value key="font-family">Menlo</value>
+        <value key="font-fixed-pitch">yes</value>
+        <value key="font-size">11</value>
+        <value key="ligature-selection">none</value>
+        <value key="paragraph-alignment">left</value>
+        <value key="paragraph-tab-stop-interval">28</value>
+        <value key="paragraph-tab-stops">28L</value>
+        <value key="text-background-color">
+          <color w="0" a="0"/>
+        </value>
+      </style>
+      <values>
+        <text>
+          <p>
+            <run>
+              <lit>General Information</lit>
+            </run>
+          </p>
+        </text>
+      </values>
+      <children>
+        <item id="d816T7htsDa" state="none">
+          <values>
+            <text>
+              <p>
+                <run>
+                  <lit>General Project Information (servers, tips, project structure notes etc)</lit>
+                </run>
+              </p>
+            </text>
+          </values>
+        </item>
+      </children>
+    </item>
+    <item id="itHCU-VF1_e" expanded="yes" state="none">
+      <style/>
+      <style/>
+      <style/>
+      <style/>
+      <style/>
+      <style>
+        <value key="font-family">Monaco</value>
+        <value key="font-fill">
+          <color w="0"/>
+        </value>
+        <value key="font-fixed-pitch">yes</value>
+        <value key="font-size">13</value>
+        <value key="paragraph-alignment">left</value>
+        <value key="paragraph-tab-stop-interval">36</value>
+        <value key="text-background-color">
+          <color w="0" a="0"/>
+        </value>
+      </style>
+      <values>
+        <text>
+          <p>
+            <run>
+              <lit>Jan 1, 2013</lit>
+            </run>
+          </p>
+        </text>
+      </values>
+      <children>
+        <item id="nbROaxQ1q9J" expanded="yes" state="none">
+          <values>
+            <text>
+              <p>
+                <run>
+                  <lit>Work Session Times</lit>
+                </run>
+              </p>
+            </text>
+          </values>
+          <children>
+            <item id="aImJNZ-sKaE" state="none">
+              <values>
+                <text>
+                  <p>
+                    <run>
+                      <lit>Notes</lit>
+                    </run>
+                  </p>
+                </text>
+              </values>
+            </item>
+            <item id="fNnJDyzg1jW" expanded="yes" state="none">
+              <style/>
+              <style/>
+              <style>
+                <inherited-style name="Subheading" idref="n_HOk4UCHob"/>
+              </style>
+              <values>
+                <text>
+                  <p>
+                    <run>
+                      <lit>In Progress</lit>
+                    </run>
+                  </p>
+                </text>
+              </values>
+              <children>
+                <item id="jeDN3dgeCIJ" expanded="yes" state="none">
+                  <values>
+                    <text>
+                      <p>
+                        <run>
+                          <lit>An Item</lit>
+                        </run>
+                      </p>
+                    </text>
+                  </values>
+                  <children>
+                    <item id="myTufsvn5pB" state="none">
+                      <values>
+                        <text>
+                          <p>
+                            <run>
+                              <lit>Notes about An Item (use the &quot;Subheading&quot; named style)</lit>
+                            </run>
+                          </p>
+                        </text>
+                      </values>
+                    </item>
+                  </children>
+                </item>
+                <item id="m0Yi38f7Rts">
+                  <values>
+                    <null/>
+                  </values>
+                </item>
+              </children>
+            </item>
+            <item id="cJtSkSXrSAP" state="none">
+              <values>
+                <text>
+                  <p>
+                    <run>
+                      <lit>Completed Items</lit>
+                    </run>
+                  </p>
+                </text>
+              </values>
+            </item>
+            <item id="cnbWT7DO62V" expanded="yes" state="none">
+              <values>
+                <text>
+                  <p>
+                    <run>
+                      <lit>Questions and Answers</lit>
+                    </run>
+                  </p>
+                </text>
+              </values>
+              <children>
+                <item id="a3EI7s40qv5" state="none">
+                  <values>
+                    <text>
+                      <p>
+                        <run>
+                          <lit>Q:</lit>
+                        </run>
+                      </p>
+                    </text>
+                  </values>
+                </item>
+                <item id="i_9x-Nvwk4y" state="none">
+                  <values>
+                    <text>
+                      <p>
+                        <run>
+                          <lit>A: </lit>
+                        </run>
+                      </p>
+                    </text>
+                  </values>
+                </item>
+              </children>
+            </item>
+            <item id="cuhJi6wQNGR" expanded="yes" state="none">
+              <style/>
+              <style>
+                <value key="text-background-color">
+                  <color w="0" a="0"/>
+                </value>
+              </style>
+              <style>
+                <value key="font-family">Monaco</value>
+                <value key="font-fill">
+                  <color w="0"/>
+                </value>
+                <value key="font-fixed-pitch">yes</value>
+                <value key="font-size">13</value>
+                <value key="paragraph-alignment">left</value>
+                <value key="paragraph-tab-stop-interval">36</value>
+                <value key="text-background-color">
+                  <color w="0" a="0"/>
+                </value>
+              </style>
+              <values>
+                <text>
+                  <p>
+                    <run>
+                      <lit>TODOs</lit>
+                    </run>
+                  </p>
+                </text>
+              </values>
+              <children>
+                <item id="lINzkyHIpjo">
+                  <values>
+                    <text>
+                      <p>
+                        <run>
+                          <lit>TODO items: Use the CHECKED style to cross off completed items that are completed in later work sessions. (items completed this day should just be moved to Completed Items section)</lit>
+                        </run>
+                      </p>
+                    </text>
+                  </values>
+                </item>
+              </children>
+            </item>
+          </children>
+        </item>
+      </children>
+    </item>
+  </root>
+</outline>
